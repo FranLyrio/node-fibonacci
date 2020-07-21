@@ -1,0 +1,16 @@
+{
+  "name": "modulo-1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "node_modules/jest/bin/jest.js submission/submit.test.js",
+    "test:submit": "npm test | exit 0",
+    "start": "node index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "jest": "^26.0.1"
+  }
+}
